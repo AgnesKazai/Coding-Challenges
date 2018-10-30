@@ -25,7 +25,7 @@ The rules continue to be applied repeatedly to create further generations.
 
 -------------------------------------------------------------------------------------------------------
 
-Coding Challenge #2: Webapplication
+Coding Challenge #2: Web application
 
 A.?  Készíts egy webes alkalmazást, ami egy webshop kedvezménykezelését szimulálja.
 Az  alábbi kedvezmény típusok léteznek:  
