@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>ORDERS FORM#</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css"/>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<h1>LIST OF ORDERS</h1>
+
+<table>
+    <tr>
+        <th>PRODUCT NAME</th>
+        <th>PRICE (HUF)</th>
+        <th>SHOPPING CART</th>
+    </tr>
+    <tr th:each="product : ${productlist}" th:object="${product}">
+        <td th:text="*{name}"></td>
+        <td th:text="*{price}"></td>
+        <td th:text="*{quantity}"></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th>ORIGINAL AMOUNT</th>
+        <th>DISCOUNTED AMOUNT</th>
+        <th>TYPE OF DISCOUNTS</th>
+    </tr>
+    <tr>
+        <td th:text="${bill.getOriginalAmount()}"></td>
+        <td th:text="${bill.getDiscountedAmount()}"></td>
+        <td th:text="${bill.getTyeOfDiscount()}"></td>
+    </tr>
+</table>
+<a href="/" class="button">Back</a>
+</body>
+</html>

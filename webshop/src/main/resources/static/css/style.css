@@ -1,0 +1,47 @@
+h1 {
+    font-style: normal;
+    font-size: xx-large;
+    font-weight: bold;
+    color: sienna;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+td, th {
+    border: groove;
+    text-align: left;
+    width: min-content;
+}
+
+.button {
+    padding-top: 10px;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: indigo;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 20%;
+    height: 20%;
+    display: table;
+    margin: 30px auto 0 auto;
+}
+
+input {
+    background-color: aliceblue;
+}
+
