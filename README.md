@@ -27,7 +27,7 @@ The rules continue to be applied repeatedly to create further generations.
 
 Coding Challenge #2: Web application
 
-Webshop készítése, ami a kedvezménykezelését szimulálja.
+Creating a Webshop, which simulates a discount management.
 
 ------------------------------------------------------------------------------------------------------
 
